@@ -1,0 +1,105 @@
+
+body{
+	 margin:50 auto;}
+a.home{
+	border-color: black;
+	border:2px;
+	width: 300px;
+padding: 20px;
+    color: green;
+	display: inline-block;
+	text-decoration: none;
+	font-family: impact;
+    font-size: 150%; 
+    text-align: right;
+}
+
+a.button{
+	background-color: red;
+    color: white;
+	font-family: impact;
+    font-size: 150%; 
+    padding: 10px 24px 10px 24px;
+    text-align: center;
+    display: block;
+	text-decoration: none;
+	
+	
+}
+
+a.contents {
+	color: Green;
+    font-family: impact;
+    font-size: 180%; 
+	text-decoration: none;
+	line-height: 180%;
+	padding-left: 5%;
+
+}
+#loc{
+	float: right;
+}
+
+div.background {
+  background-image:url('kg5.jpg') ;
+  background-size: auto 650px;
+
+    background-repeat: no-repeat;
+}
+div.transbox {
+  margin: 0% 58% 0% 5%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+img.center {
+display: block;
+    margin: auto;	
+}
+div.transbox p {
+
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ul{
+	font-family:cambria;
+    font-size: 110%; 
+	line-height: 250%;
+}
+#spec{
+	
+	list-style-image: url('icon.ico');
+	list-style-position: 10px 10px;
+	font-family:cambria;
+    font-size: 110%; 
+	line-height: 170%;
+
+	
+}
+
+
+h1{
+	color: Green;
+    font-family: impact;
+    font-size:250%; 
+	text-align: center;
+	line-height: 5%;
+}
+a.home{
+	position: fixed;
+    right: 0;
+    top: 0;
+    width: 10%;
+	
+	height:5%;
+    background-color: green;
+    color: white;
+    text-align: center;
+	font-family: impact;
+}
+
+a:hover {
+    text-decoration: underline;
+}
